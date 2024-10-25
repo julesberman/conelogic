@@ -1,0 +1,11 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools >= 64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cone"
+version = "0.1.0"  # Replace with your project's version
+
+[tool.setuptools]
+packages = ["cone"]
